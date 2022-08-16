@@ -27,13 +27,13 @@
         <nav class="menu__nav">
           <ol class="menu__list">
             <li class="menu__item">
-              <a class="menu__link" href="#">Отступ задается от предыдущего элемента к следующему</a>
+              <a class="menu__link" href="#second">Отступ задается от предыдущего элемента к следующему</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">Отступ задается последнему возможному элементу в DOM-дереве</a>
+              <a class="menu__link" href="#third">Отступ задается последнему возможному элементу в DOM-дереве</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">Для последнего элемента группы отступ обнуляется</a>
+              <a class="menu__link" href="#fourth">Для последнего элемента группы отступ обнуляется</a>
             </li>
           </ol>
         </nav>
@@ -42,7 +42,7 @@
 
     <section class="section-second vertical-indent">
       <div class="container">
-        <h2 class="title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
+        <h2 id="second" class="title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
         <div class="section-second__inner">
           <img class="section-second__image" src="img/second-1.jpg" alt="Пример margin">
         </div>
@@ -79,7 +79,7 @@
 
     <section class="section-third vertical-indent">
       <div class="container">
-        <h2 class="title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
+        <h2 id="third" class="title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
         <p class="section-third__block">
           Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
         </p>
@@ -121,7 +121,7 @@
 
     <section class="section-fourth vertical-indent">
       <div class="container">
-        <h2 class="title">Для последнего элемента группы отступ всегда обнуляется</h2>
+        <h2 id="fourth" class="title">Для последнего элемента группы отступ всегда обнуляется</h2>
         <p class="section-fourth__block">
           Для наглядности возьмём наш предыдущий пример с рецептами
         </p>

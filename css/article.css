@@ -1,0 +1,105 @@
+.indents {
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+
+.vertical-indent {
+  padding: 25px 0;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.main-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.section-first__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.gray-block {
+  border-radius: 10px;
+  padding: 25px 45px;
+  background-color: #f1f1f1;
+}
+
+.gray-block__caption {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53px;
+}
+
+.menu__item:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.menu__link {
+  border-bottom: 1px solid currentColor;
+  color: #02535f;
+}
+
+.section-second__inner {
+  display: inline-block;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+
+.section-second__inner:nth-child(3),
+.section-second__inner:nth-child(4) {
+  max-width: 480px;
+}
+
+.section-second__inner:nth-child(even) {
+  margin-right: 30px;
+}
+
+.section-second__inner:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.section-second__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.section-third__block:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.image-block {
+  text-align: center;
+}
+
+.image-block__descr {
+  border: 1px solid #000;
+  border-top: none;
+  margin-top: -5px;
+  padding: 15px 30px;
+  text-align: left;
+}
+
+.section-fourth__block:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.conclusion__list {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.conclusion__item::before {
+  content: "\2014";
+  margin-right: 5px;
+}
+
+
+
